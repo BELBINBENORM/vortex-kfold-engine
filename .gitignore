@@ -1,0 +1,30 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Data (Vortex persistence files)
+*.cloudpickle
+*.npy
+*.pkl
+*.model
+*.h5
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
