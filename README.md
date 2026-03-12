@@ -47,10 +47,9 @@ preds = vortex.predict(X_test)
 
 The engine provides detailed logging during the training process:
 
-* [cite_start]**🔍 Search**: Checks for existing `.cloudpickle` and `.npy` files to skip training[cite: 5, 6].
-* [cite_start]**📦 System**: Reports the number of folds and parallel jobs being utilized[cite: 8].
-* [cite_start]**✅ Progress**: Confirms when individual folds and OOF generations are completed[cite: 9].
-* [cite_start]**⭐ Performance**: Displays the final Cross-Validation (CV) score (ROC-AUC for classification or R2 for regression)[cite: 11].
-
+* **🔍 Search**: Checks for existing `.cloudpickle` and `.npy` files to skip training.
+* **📦 System**: Reports the number of folds and parallel jobs being utilized.
+* **✅ Progress**: Confirms when individual folds and OOF generations are completed.
+* **⭐ Performance**: Displays the final Cross-Validation (CV) score (ROC-AUC for classification or R2 for regression).
 ---
 *Developed by **BELBIN BENO R M***
