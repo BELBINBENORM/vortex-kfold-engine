@@ -1,14 +1,14 @@
 # 🌪️ Vortex KFold Engine
 
-**Vortex KFold Engine** is a high-performance cross-validation wrapper designed for robust model training and seamless experiment tracking. [cite_start]It automates the K-Fold process while integrating **Cloudpickle-based persistence** to avoid redundant training sessions[cite: 21, 30].
+**Vortex KFold Engine** is a high-performance cross-validation wrapper designed for robust model training and seamless experiment tracking.It automates the K-Fold process while integrating **Cloudpickle-based persistence** to avoid redundant training sessions.
 ---
 ## 🚀 Features
 
 * **Dual Task Support**: Optimized to handle both **Classification** (using StratifiedKFold) and **Regression** (using KFold) tasks automatically.
-* [cite_start]**Automated Persistence**: Automatically detects and loads pre-trained model ensembles and Out-of-Fold (OOF) predictions if they exist in the specified path[cite: 25, 26].
-* [cite_start]**Parallel Execution**: Utilizes `joblib` to execute $N$-fold cross-validation in parallel, significantly reducing training time[cite: 21, 28].
-* [cite_start]**Cloudpickle Integration**: Uses `cloudpickle` instead of standard `pickle` to ensure custom classes and complex lambda functions are serialized correctly[cite: 21, 30].
-* [cite_start]**Scikit-Learn Compatibility**: Inherits from `BaseEstimator` to function as a drop-in replacement in existing pipelines[cite: 21].
+* **Automated Persistence**: Automatically detects and loads pre-trained model ensembles and Out-of-Fold (OOF) predictions if they exist in the specified path.
+* [cite_start]**Parallel Execution**: Utilizes `joblib` to execute $N$-fold cross-validation in parallel, significantly reducing training time.
+* **Cloudpickle Integration**: Uses `cloudpickle` instead of standard `pickle` to ensure custom classes and complex lambda functions are serialized correctly.
+* **Scikit-Learn Compatibility**: Inherits from `BaseEstimator` to function as a drop-in replacement in existing pipelines.
 ---
 ## 📓 Notebook Installation
 
