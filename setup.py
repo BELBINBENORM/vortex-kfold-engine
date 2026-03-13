@@ -16,6 +16,7 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
     ],
+    py_modules=["vortex_kfold"],
     python_requires='>=3.8',
     install_requires=[
         "pandas",
